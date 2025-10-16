@@ -1,11 +1,11 @@
 import mssql from 'mssql';
 
 const config = {
-  user: 'SA',
+  user: 'sa',
   password: 'Today@123!',
-  server: 'localhost', // Or the IP address
+  server: '0.0.0.0', // Or the IP address
   port: 1433,
-  database: 'oyd-dev',
+  database: 'tempdb',
   options: {
     encrypt: true, // Recommended
     trustServerCertificate: true // Required if not using a trusted certificate
